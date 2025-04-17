@@ -111,5 +111,4 @@ variable "vpc_peering_tags" {
 variable "database_subnet_group_tags" {
     type = map(string)
     default = {}
-  
 }
